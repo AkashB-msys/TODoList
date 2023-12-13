@@ -1,0 +1,70 @@
+.cardContainer {
+  width: 30vw;
+  background-color: rgb(243 243 243);
+  height: 20vh;
+  padding: 2vh 1.5vw;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.cardactive {
+  color: white;
+  background-color: #2cd8ef;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.icons svg {
+  width: 30px;
+  height: 30px;
+}
+.delete {
+  background-color: red;
+  border-radius: 20px;
+  width: 50px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+}
+.normal span:first-child svg path {
+  fill: transparent;
+  stroke: grey;
+  stroke-width: 2.5px;
+}
+.cardactive .activeStar span:first-child svg {
+  fill: grey;
+}
+.normal svg:last-child,
+.activeStar svg:last-child,
+.stared svg:last-child {
+  fill: grey;
+}
+.activeStar span:first-child svg {
+  fill: rgb(23, 162, 255);
+  stroke: rgb(53, 134, 187);
+}
+.stared span:first-child svg {
+  fill: grey;
+  stroke: grey;
+}
+.icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.des {
+  font-size: 13px;
+}
+.titleContainer p {
+  font-weight: 600;
+  font-weight: 600;
+  display: flex;
+  min-width: 47%;
+  justify-content: space-between;
+  align-items: baseline;
+}

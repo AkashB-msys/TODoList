@@ -1,0 +1,63 @@
+.totalContainer {
+  margin-left: 3vw;
+  margin-top: -5px;
+  width: 40vw;
+  padding: 10px;
+}
+
+.displayContent {
+  font-weight: bold;
+  margin-bottom: -4px;
+  margin-top: -7px;
+}
+.time {
+  color: #2cd8ef;
+  font-size: 12px;
+}
+.describtion {
+  color: grey;
+  margin-top: 30px;
+  font-size: 11px;
+}
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.name svg {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.name {
+  width: 8vw;
+  display: flex;
+  justify-content: space-between;
+}
+.Link{
+  margin-top: 5px;
+}
+.c_one svg:first-child path,
+.c_two svg:first-child path,
+.c_three svg:first-child path{
+  fill: grey !important;
+}
+.c_one svg:nth-child(2) {
+  fill: transparent;
+  stroke: grey;
+  stroke-width: 2.5px;
+}
+.c_one svg:last-child,
+.c_two svg:last-child,
+.c_three svg:last-child {
+  fill: grey;
+}
+.c_two svg:nth-child(2) {
+  fill: rgb(53, 134, 187);
+  stroke: rgb(53, 134, 187);
+}
+.c_three svg:nth-child(2) {
+  fill: grey;
+  stroke: grey;
+}

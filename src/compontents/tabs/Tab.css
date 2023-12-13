@@ -1,0 +1,32 @@
+.tabcontainer {
+  width: 10vw;
+  height: 20vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 2vw; */
+}
+.tab {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(184, 184, 184);
+  cursor: pointer;
+  width: 10vw;
+  display:flex;
+  /* justify-content: center; */
+  margin-left: 30px;
+}
+.active {
+  color: black;
+  cursor: none;
+}
+.active:before {
+  content: "";
+  border-left: 8px solid rgb(107, 184, 242);
+}
+.active p{
+  margin-left: calc(2vw - 8px) !important;
+}
+.tab p {
+  margin-left: 2vw;
+}
